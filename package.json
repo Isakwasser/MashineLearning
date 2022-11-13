@@ -4,12 +4,14 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "start": "tsc --watch",
+    "start": "npm run nodemon",
+    "dev": "tsc --watch",
     "nodemon": "nodemon dist/index.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^18.11.9",
     "tslint": "^5.12.1",
     "typescript": "^3.3.3"
   }
