@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var confirmInput_1 = require("./confirmInput");
+exports.confirmInput = confirmInput_1.default;
+var getTypedInput_1 = require("./getTypedInput");
+exports.getTypedInput = getTypedInput_1.default;
+var getTypedInputNumber_1 = require("./getTypedInputNumber");
+exports.getTypedInputNumber = getTypedInputNumber_1.default;
+var readlineSync_1 = require("./readlineSync");
+exports.readlineSync = readlineSync_1.default;
