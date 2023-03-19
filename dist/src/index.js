@@ -1,3 +1,4 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-require("./l1");
+// import "./l1";
+require("./design-add-and-search-words-data-structure");

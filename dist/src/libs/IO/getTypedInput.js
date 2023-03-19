@@ -8,7 +8,7 @@ function getTypedInput(text, type, incorrect) {
     }; }
     switch (type) {
         case "number":
-            return _1.getTypedInputNumber(text, "number", incorrect);
+            return (0, _1.getTypedInputNumber)(text, "number", incorrect);
     }
 }
 exports.default = getTypedInput;
